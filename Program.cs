@@ -41,9 +41,11 @@ namespace Quiz
                 var rest = Console.ReadLine();
                 if(rest.ToUpper() == quest.RespostaCorreta.ToUpper())
                 {
+                    // acertou
                     corretas++;
                 } else
                 {
+                    // errou
                     erradas++;
                 }
             }
